@@ -1,0 +1,36 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100vw 100vh;
+}
+.jumbotron {
+    background-color: #FA8072;
+    margin: auto;
+    border-radius: 40px;
+    display: block;
+    width: 900px;
+    height: 225px;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.Title {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+}
+
+.Description {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Text {
+    font-family: monospace
+}
+
+.credit {
+    position: absolute;
+    bottom: 0; left: 0;
+}
