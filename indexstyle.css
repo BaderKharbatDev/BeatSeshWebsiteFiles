@@ -38,13 +38,24 @@ body {
     padding-right: 20px;
     font-weight: bold;
         font-family: monospace;
+}
 
+.input-group {
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    font-family: monospace;
 }
 
 @media (max-width: 600px) {
   .jumbotron {
     display: inline-block;
-    height: 275px;
+    height: 245px;
     width: 300px;
     background-color: #FA8072;
     margin: auto;
@@ -57,7 +68,7 @@ body {
 
     .Title {
         font-family: 'Permanent Marker', cursive;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     p {
